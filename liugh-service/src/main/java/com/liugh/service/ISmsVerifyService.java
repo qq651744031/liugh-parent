@@ -27,4 +27,5 @@ public interface ISmsVerifyService extends IService<SmsVerify> {
     SmsVerify addAndGetMobileAndCaptcha(String smsType, String mobile)throws Exception;
 
     void captchaCheck(String mobile,String smsType, String captcha)throws Exception;
+
 }
